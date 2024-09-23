@@ -33,5 +33,3 @@ sources:
   - https://hub.docker.com/r/fallenbagel/jellyseerr
 type: application
 version: 11.1.6
-
-
