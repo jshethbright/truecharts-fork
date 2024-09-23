@@ -1,0 +1,39 @@
+apiVersion: v1
+entries:
+  acestream:
+  - annotations:
+      max_scale_version: 24.04.1
+      min_scale_version: 24.04.0
+      truecharts.org/category: MediaServer-Video
+      truecharts.org/max_helm_version: "3.15"
+      truecharts.org/min_helm_version: "3.11"
+      truecharts.org/train: stable
+    apiVersion: v2
+    appVersion: 2.0.2.8
+    created: "2024-09-23T01:56:36.949590846Z"
+    dependencies:
+    - name: common
+      repository: oci://tccr.io/truecharts
+      version: 24.1.16
+    description: IPTV service providing streaming, playlist, search engine and epg.
+    digest: c34704d60bfd6aa888723b09df87c551f193fb6bdb8e7c2004a159347ab3b75a
+    home: https://truecharts.org/charts/stable/acestream
+    icon: https://truecharts.org/img/hotlink-ok/chart-icons/acestream.webp
+    keywords:
+    - acestream
+    - MediaServer-Video
+    kubeVersion: '>=1.24.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: acestream
+    sources:
+    - https://github.com/truecharts/charts/tree/master/charts/stable/acestream
+    - https://github.com/vstavrinov/acestream-service
+    - https://hub.docker.com/r/vstavrinov/acestream-service
+    type: application
+    urls:
+    - https://github.com/jshethbright/truecharts-fork/releases/download/acestream-8.1.7/acestream-8.1.7.tgz
+    version: 8.1.7
+generated: "2024-09-23T01:56:36.949599542Z"
