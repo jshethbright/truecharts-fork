@@ -36,4 +36,32 @@ entries:
     urls:
     - https://github.com/jshethbright/truecharts-fork/releases/download/acestream-8.1.7/acestream-8.1.7.tgz
     version: 8.1.7
-generated: "2024-09-23T01:56:36.949599542Z"
+  common:
+  - annotations:
+      artifacthub.io/category: integration-delivery
+      artifacthub.io/license: BUSL-1.1
+      artifacthub.io/links: |
+        - name: support
+          url: https://discord.com/invite/tVsPTHWTtr
+    apiVersion: v2
+    appVersion: latest
+    created: "2024-09-23T02:30:58.326751653Z"
+    description: Function library for TrueCharts
+    digest: 3d8b6112fec034ba0ba76d06fe508dfe65b0683179324f7226795737c0af76b9
+    home: https://github.com/truecharts/apps/tree/master/charts/common
+    icon: https://avatars.githubusercontent.com/u/76400755
+    keywords:
+    - truecharts
+    - library-chart
+    - common
+    kubeVersion: '>=1.24.0-0'
+    maintainers:
+    - email: info@truecharts.org
+      name: TrueCharts
+      url: https://truecharts.org
+    name: common
+    type: library
+    urls:
+    - https://github.com/jshethbright/truecharts-fork/releases/download/common-24.1.18/common-24.1.18.tgz
+    version: 24.1.18
+generated: "2024-09-23T02:30:58.326762473Z"
