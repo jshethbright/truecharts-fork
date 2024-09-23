@@ -9,8 +9,8 @@ apiVersion: v2
 appVersion: 4.0.9.2244
 dependencies:
   - name: common
-    version: 24.1.16
-    repository: oci://tccr.io/truecharts
+    version: 24.1.18
+    repository: https://jshethbright.github.io/truecharts-fork/
     condition: ""
     alias: ""
     tags: []
