@@ -3,6 +3,6 @@ git-repo: charts
 repo: charts
 charts-dir: charts/*
 charts_repo_url: "https://deps.truecharts.org"
-SkipExisting: false
-skipExisting: false
+SkipExisting: true
+skipExisting: true
 
