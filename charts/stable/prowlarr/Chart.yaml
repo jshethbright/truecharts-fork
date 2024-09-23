@@ -9,8 +9,8 @@ apiVersion: v2
 appVersion: 1.24.0.4721
 dependencies:
   - name: common
-    version: 24.1.16
-    repository: oci://tccr.io/truecharts
+    version: 24.1.18
+    repository: https://jshethbright.github.io/truecharts-fork/
     condition: ""
     alias: ""
     tags: []
@@ -37,3 +37,5 @@ sources:
   - https://github.com/truecharts/charts/tree/master/charts/stable/prowlarr
 type: application
 version: 18.5.2
+
+
